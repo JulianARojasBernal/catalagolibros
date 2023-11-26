@@ -13,7 +13,7 @@
     <link rel="stylesheet" type="text/css" href="js/vendor/codemirror/lib/codemirror.css?v=5.1.3">
     <link rel="stylesheet" type="text/css" href="js/vendor/codemirror/addon/hint/show-hint.css?v=5.1.3">
     <link rel="stylesheet" type="text/css" href="js/vendor/codemirror/addon/lint/lint.css?v=5.1.3">
-    <link rel="stylesheet" type="text/css" href="./themes/pmahomme/css/theme.css?v=5.1.3&nocache=2390466610ltr&server=1">
+    <link rel="stylesheet" type="text/css" href="./themes/pmahomme/css/theme.css?v=5.1.3&nocache=1940903639ltr&server=1">
     <link rel="stylesheet" type="text/css" href="./themes/pmahomme/css/printview.css?v=5.1.3" media="print" id="printcss">
     <title>localhost / 127.0.0.1 | phpMyAdmin 5.1.3</title>
     <script data-cfasync="false" type="text/javascript" src="js/vendor/jquery/jquery.min.js?v=5.1.3"></script>
@@ -561,373 +561,7 @@ $.extend(defaultValues, {
                     <span class="hide" id="instructions-1">
                         Presione Enter para ejecutar la consulta                    </span>
                 </div>
-                                                            <div class="message history collapsed hide"
-                            targetdb="base_de_datos_dt" targettable="">
-                            <div class="action_content">
-                    <span class="action collapse">
-            Colapsar
-                    </span>
-                            <span class="action expand">
-            Expandir
-                    </span>
-                            <span class="action requery">
-            Reconsultar
-                    </span>
-                            <span class="action edit">
-            Editar
-                    </span>
-                            <span class="action explain">
-            Explicar
-                    </span>
-                            <span class="action profiling">
-            Perfilando
-                    </span>
-                            <span class="action bookmark">
-            Agregar a favoritos
-                    </span>
-                            <span class="text failed">
-            Falló la consulta
-                    </span>
-                            <span class="text targetdb">
-            Base de datos
-                            : <span>base_de_datos_dt</span>
-                    </span>
-                            <span class="text query_time">
-            Fecha y hora la consulta
-                            : <span>durante la sesión actual</span>
-                    </span>
-            </div>
-                            <span class="query">CREATE TABLE formulario2 (
-  id INT AUTO_INCREMENT PRIMARY KEY,
-  nombre_completo VARCHAR(255),
-  telefono_whatsapp VARCHAR(20),
-  area_apoyo VARCHAR(255),
-  comentario TEXT
-);</span>
-                        </div>
-                                            <div class="message history collapsed hide"
-                            targetdb="catalagolibros" targettable="">
-                            <div class="action_content">
-                    <span class="action collapse">
-            Colapsar
-                    </span>
-                            <span class="action expand">
-            Expandir
-                    </span>
-                            <span class="action requery">
-            Reconsultar
-                    </span>
-                            <span class="action edit">
-            Editar
-                    </span>
-                            <span class="action explain">
-            Explicar
-                    </span>
-                            <span class="action profiling">
-            Perfilando
-                    </span>
-                            <span class="action bookmark">
-            Agregar a favoritos
-                    </span>
-                            <span class="text failed">
-            Falló la consulta
-                    </span>
-                            <span class="text targetdb">
-            Base de datos
-                            : <span>catalagolibros</span>
-                    </span>
-                            <span class="text query_time">
-            Fecha y hora la consulta
-                            : <span>durante la sesión actual</span>
-                    </span>
-            </div>
-                            <span class="query">CREATE TABLE usuarios (
-    id INT AUTO_INCREMENT PRIMARY KEY,
-    nombre VARCHAR(255),
-    correo VARCHAR(255),
-    nombre_usuario VARCHAR(50) UNIQUE,
-    password VARCHAR(255)
-);</span>
-                        </div>
-                                            <div class="message history collapsed hide"
-                            targetdb="catalagolibros" targettable="">
-                            <div class="action_content">
-                    <span class="action collapse">
-            Colapsar
-                    </span>
-                            <span class="action expand">
-            Expandir
-                    </span>
-                            <span class="action requery">
-            Reconsultar
-                    </span>
-                            <span class="action edit">
-            Editar
-                    </span>
-                            <span class="action explain">
-            Explicar
-                    </span>
-                            <span class="action profiling">
-            Perfilando
-                    </span>
-                            <span class="action bookmark">
-            Agregar a favoritos
-                    </span>
-                            <span class="text failed">
-            Falló la consulta
-                    </span>
-                            <span class="text targetdb">
-            Base de datos
-                            : <span>catalagolibros</span>
-                    </span>
-                            <span class="text query_time">
-            Fecha y hora la consulta
-                            : <span>durante la sesión actual</span>
-                    </span>
-            </div>
-                            <span class="query">CREATE TABLE categorias (
-    id INT AUTO_INCREMENT PRIMARY KEY,
-    nombre_categoria VARCHAR(255) UNIQUE
-);</span>
-                        </div>
-                                            <div class="message history collapsed hide"
-                            targetdb="catalagolibros" targettable="">
-                            <div class="action_content">
-                    <span class="action collapse">
-            Colapsar
-                    </span>
-                            <span class="action expand">
-            Expandir
-                    </span>
-                            <span class="action requery">
-            Reconsultar
-                    </span>
-                            <span class="action edit">
-            Editar
-                    </span>
-                            <span class="action explain">
-            Explicar
-                    </span>
-                            <span class="action profiling">
-            Perfilando
-                    </span>
-                            <span class="action bookmark">
-            Agregar a favoritos
-                    </span>
-                            <span class="text failed">
-            Falló la consulta
-                    </span>
-                            <span class="text targetdb">
-            Base de datos
-                            : <span>catalagolibros</span>
-                    </span>
-                            <span class="text query_time">
-            Fecha y hora la consulta
-                            : <span>durante la sesión actual</span>
-                    </span>
-            </div>
-                            <span class="query">CREATE TABLE libros (
-    id INT AUTO_INCREMENT PRIMARY KEY,
-    titulo VARCHAR(255),
-    autor VARCHAR(255),
-    ano_publicacion INT,
-    sinopsis TEXT,
-    foto_portada VARCHAR(255),
-    categoria_id INT,
-    FOREIGN KEY (categoria_id) REFERENCES categorias(id)
-);</span>
-                        </div>
-                                            <div class="message history collapsed hide"
-                            targetdb="catalagolibros" targettable="">
-                            <div class="action_content">
-                    <span class="action collapse">
-            Colapsar
-                    </span>
-                            <span class="action expand">
-            Expandir
-                    </span>
-                            <span class="action requery">
-            Reconsultar
-                    </span>
-                            <span class="action edit">
-            Editar
-                    </span>
-                            <span class="action explain">
-            Explicar
-                    </span>
-                            <span class="action profiling">
-            Perfilando
-                    </span>
-                            <span class="action bookmark">
-            Agregar a favoritos
-                    </span>
-                            <span class="text failed">
-            Falló la consulta
-                    </span>
-                            <span class="text targetdb">
-            Base de datos
-                            : <span>catalagolibros</span>
-                    </span>
-                            <span class="text query_time">
-            Fecha y hora la consulta
-                            : <span>durante la sesión actual</span>
-                    </span>
-            </div>
-                            <span class="query">DROP TABLE `categorias`, `failed_jobs`, `libros`, `migrations`, `password_reset_tokens`, `personal_access_tokens`, `users`, `usuarios`;</span>
-                        </div>
-                                            <div class="message history collapsed hide select"
-                            targetdb="catalagolibros" targettable="categorias">
-                            <div class="action_content">
-                    <span class="action collapse">
-            Colapsar
-                    </span>
-                            <span class="action expand">
-            Expandir
-                    </span>
-                            <span class="action requery">
-            Reconsultar
-                    </span>
-                            <span class="action edit">
-            Editar
-                    </span>
-                            <span class="action explain">
-            Explicar
-                    </span>
-                            <span class="action profiling">
-            Perfilando
-                    </span>
-                            <span class="action bookmark">
-            Agregar a favoritos
-                    </span>
-                            <span class="text failed">
-            Falló la consulta
-                    </span>
-                            <span class="text targetdb">
-            Base de datos
-                            : <span>catalagolibros</span>
-                    </span>
-                            <span class="text query_time">
-            Fecha y hora la consulta
-                            : <span>durante la sesión actual</span>
-                    </span>
-            </div>
-                            <span class="query">SELECT * FROM `categorias`</span>
-                        </div>
-                                            <div class="message history collapsed hide select"
-                            targetdb="catalagolibros" targettable="libros">
-                            <div class="action_content">
-                    <span class="action collapse">
-            Colapsar
-                    </span>
-                            <span class="action expand">
-            Expandir
-                    </span>
-                            <span class="action requery">
-            Reconsultar
-                    </span>
-                            <span class="action edit">
-            Editar
-                    </span>
-                            <span class="action explain">
-            Explicar
-                    </span>
-                            <span class="action profiling">
-            Perfilando
-                    </span>
-                            <span class="action bookmark">
-            Agregar a favoritos
-                    </span>
-                            <span class="text failed">
-            Falló la consulta
-                    </span>
-                            <span class="text targetdb">
-            Base de datos
-                            : <span>catalagolibros</span>
-                    </span>
-                            <span class="text query_time">
-            Fecha y hora la consulta
-                            : <span>durante la sesión actual</span>
-                    </span>
-            </div>
-                            <span class="query">SELECT * FROM `libros`</span>
-                        </div>
-                                            <div class="message history collapsed hide select"
-                            targetdb="catalagolibros" targettable="libros">
-                            <div class="action_content">
-                    <span class="action collapse">
-            Colapsar
-                    </span>
-                            <span class="action expand">
-            Expandir
-                    </span>
-                            <span class="action requery">
-            Reconsultar
-                    </span>
-                            <span class="action edit">
-            Editar
-                    </span>
-                            <span class="action explain">
-            Explicar
-                    </span>
-                            <span class="action profiling">
-            Perfilando
-                    </span>
-                            <span class="action bookmark">
-            Agregar a favoritos
-                    </span>
-                            <span class="text failed">
-            Falló la consulta
-                    </span>
-                            <span class="text targetdb">
-            Base de datos
-                            : <span>catalagolibros</span>
-                    </span>
-                            <span class="text query_time">
-            Fecha y hora la consulta
-                            : <span>durante la sesión actual</span>
-                    </span>
-            </div>
-                            <span class="query">SELECT * FROM `libros`</span>
-                        </div>
-                                            <div class="message history collapsed hide select"
-                            targetdb="catalagolibros" targettable="libros">
-                            <div class="action_content">
-                    <span class="action collapse">
-            Colapsar
-                    </span>
-                            <span class="action expand">
-            Expandir
-                    </span>
-                            <span class="action requery">
-            Reconsultar
-                    </span>
-                            <span class="action edit">
-            Editar
-                    </span>
-                            <span class="action explain">
-            Explicar
-                    </span>
-                            <span class="action profiling">
-            Perfilando
-                    </span>
-                            <span class="action bookmark">
-            Agregar a favoritos
-                    </span>
-                            <span class="text failed">
-            Falló la consulta
-                    </span>
-                            <span class="text targetdb">
-            Base de datos
-                            : <span>catalagolibros</span>
-                    </span>
-                            <span class="text query_time">
-            Fecha y hora la consulta
-                            : <span>durante la sesión actual</span>
-                    </span>
-            </div>
-                            <span class="query">SELECT * FROM `libros`</span>
-                        </div>
-                                            <div class="message history collapsed hide select"
+                                                            <div class="message history collapsed hide select"
                             targetdb="catalagolibros" targettable="categorias">
                             <div class="action_content">
                     <span class="action collapse">
@@ -1534,6 +1168,348 @@ $.extend(defaultValues, {
                     </span>
             </div>
                             <span class="query">INSERT INTO libros (titulo, autor, ano_publicacion, sinopsis, foto_portada, categoria_id, created_at, updated_at) VALUES (&#039;Libro de Ejemplo 1&#039;, &#039;Autor Ejemplo 1&#039;, 2022, &#039;Sinopsis del libro de ejemplo 1.&#039;, &#039;ruta/a/la/foto1.jpg&#039;, 1, NOW(), NOW());</span>
+                        </div>
+                                            <div class="message history collapsed hide select"
+                            targetdb="catalagolibros" targettable="libros">
+                            <div class="action_content">
+                    <span class="action collapse">
+            Colapsar
+                    </span>
+                            <span class="action expand">
+            Expandir
+                    </span>
+                            <span class="action requery">
+            Reconsultar
+                    </span>
+                            <span class="action edit">
+            Editar
+                    </span>
+                            <span class="action explain">
+            Explicar
+                    </span>
+                            <span class="action profiling">
+            Perfilando
+                    </span>
+                            <span class="action bookmark">
+            Agregar a favoritos
+                    </span>
+                            <span class="text failed">
+            Falló la consulta
+                    </span>
+                            <span class="text targetdb">
+            Base de datos
+                            : <span>catalagolibros</span>
+                    </span>
+                            <span class="text query_time">
+            Fecha y hora la consulta
+                            : <span>durante la sesión actual</span>
+                    </span>
+            </div>
+                            <span class="query">SELECT * FROM `libros`</span>
+                        </div>
+                                            <div class="message history collapsed hide select"
+                            targetdb="catalagolibros" targettable="libros">
+                            <div class="action_content">
+                    <span class="action collapse">
+            Colapsar
+                    </span>
+                            <span class="action expand">
+            Expandir
+                    </span>
+                            <span class="action requery">
+            Reconsultar
+                    </span>
+                            <span class="action edit">
+            Editar
+                    </span>
+                            <span class="action explain">
+            Explicar
+                    </span>
+                            <span class="action profiling">
+            Perfilando
+                    </span>
+                            <span class="action bookmark">
+            Agregar a favoritos
+                    </span>
+                            <span class="text failed">
+            Falló la consulta
+                    </span>
+                            <span class="text targetdb">
+            Base de datos
+                            : <span>catalagolibros</span>
+                    </span>
+                            <span class="text query_time">
+            Fecha y hora la consulta
+                            : <span>durante la sesión actual</span>
+                    </span>
+            </div>
+                            <span class="query">SELECT * FROM `libros`</span>
+                        </div>
+                                            <div class="message history collapsed hide select"
+                            targetdb="catalagolibros" targettable="libros">
+                            <div class="action_content">
+                    <span class="action collapse">
+            Colapsar
+                    </span>
+                            <span class="action expand">
+            Expandir
+                    </span>
+                            <span class="action requery">
+            Reconsultar
+                    </span>
+                            <span class="action edit">
+            Editar
+                    </span>
+                            <span class="action explain">
+            Explicar
+                    </span>
+                            <span class="action profiling">
+            Perfilando
+                    </span>
+                            <span class="action bookmark">
+            Agregar a favoritos
+                    </span>
+                            <span class="text failed">
+            Falló la consulta
+                    </span>
+                            <span class="text targetdb">
+            Base de datos
+                            : <span>catalagolibros</span>
+                    </span>
+                            <span class="text query_time">
+            Fecha y hora la consulta
+                            : <span>durante la sesión actual</span>
+                    </span>
+            </div>
+                            <span class="query">SELECT * FROM `libros`</span>
+                        </div>
+                                            <div class="message history collapsed hide select"
+                            targetdb="catalagolibros" targettable="libros">
+                            <div class="action_content">
+                    <span class="action collapse">
+            Colapsar
+                    </span>
+                            <span class="action expand">
+            Expandir
+                    </span>
+                            <span class="action requery">
+            Reconsultar
+                    </span>
+                            <span class="action edit">
+            Editar
+                    </span>
+                            <span class="action explain">
+            Explicar
+                    </span>
+                            <span class="action profiling">
+            Perfilando
+                    </span>
+                            <span class="action bookmark">
+            Agregar a favoritos
+                    </span>
+                            <span class="text failed">
+            Falló la consulta
+                    </span>
+                            <span class="text targetdb">
+            Base de datos
+                            : <span>catalagolibros</span>
+                    </span>
+                            <span class="text query_time">
+            Fecha y hora la consulta
+                            : <span>durante la sesión actual</span>
+                    </span>
+            </div>
+                            <span class="query">SELECT * FROM `libros`</span>
+                        </div>
+                                            <div class="message history collapsed hide select"
+                            targetdb="catalagolibros" targettable="libros">
+                            <div class="action_content">
+                    <span class="action collapse">
+            Colapsar
+                    </span>
+                            <span class="action expand">
+            Expandir
+                    </span>
+                            <span class="action requery">
+            Reconsultar
+                    </span>
+                            <span class="action edit">
+            Editar
+                    </span>
+                            <span class="action explain">
+            Explicar
+                    </span>
+                            <span class="action profiling">
+            Perfilando
+                    </span>
+                            <span class="action bookmark">
+            Agregar a favoritos
+                    </span>
+                            <span class="text failed">
+            Falló la consulta
+                    </span>
+                            <span class="text targetdb">
+            Base de datos
+                            : <span>catalagolibros</span>
+                    </span>
+                            <span class="text query_time">
+            Fecha y hora la consulta
+                            : <span>durante la sesión actual</span>
+                    </span>
+            </div>
+                            <span class="query">SELECT * FROM `libros`</span>
+                        </div>
+                                            <div class="message history collapsed hide select"
+                            targetdb="catalagolibros" targettable="libros">
+                            <div class="action_content">
+                    <span class="action collapse">
+            Colapsar
+                    </span>
+                            <span class="action expand">
+            Expandir
+                    </span>
+                            <span class="action requery">
+            Reconsultar
+                    </span>
+                            <span class="action edit">
+            Editar
+                    </span>
+                            <span class="action explain">
+            Explicar
+                    </span>
+                            <span class="action profiling">
+            Perfilando
+                    </span>
+                            <span class="action bookmark">
+            Agregar a favoritos
+                    </span>
+                            <span class="text failed">
+            Falló la consulta
+                    </span>
+                            <span class="text targetdb">
+            Base de datos
+                            : <span>catalagolibros</span>
+                    </span>
+                            <span class="text query_time">
+            Fecha y hora la consulta
+                            : <span>durante la sesión actual</span>
+                    </span>
+            </div>
+                            <span class="query">SELECT * FROM `libros`</span>
+                        </div>
+                                            <div class="message history collapsed hide select"
+                            targetdb="catalagolibros" targettable="libros">
+                            <div class="action_content">
+                    <span class="action collapse">
+            Colapsar
+                    </span>
+                            <span class="action expand">
+            Expandir
+                    </span>
+                            <span class="action requery">
+            Reconsultar
+                    </span>
+                            <span class="action edit">
+            Editar
+                    </span>
+                            <span class="action explain">
+            Explicar
+                    </span>
+                            <span class="action profiling">
+            Perfilando
+                    </span>
+                            <span class="action bookmark">
+            Agregar a favoritos
+                    </span>
+                            <span class="text failed">
+            Falló la consulta
+                    </span>
+                            <span class="text targetdb">
+            Base de datos
+                            : <span>catalagolibros</span>
+                    </span>
+                            <span class="text query_time">
+            Fecha y hora la consulta
+                            : <span>durante la sesión actual</span>
+                    </span>
+            </div>
+                            <span class="query">SELECT * FROM `libros`</span>
+                        </div>
+                                            <div class="message history collapsed hide select"
+                            targetdb="catalagolibros" targettable="libros">
+                            <div class="action_content">
+                    <span class="action collapse">
+            Colapsar
+                    </span>
+                            <span class="action expand">
+            Expandir
+                    </span>
+                            <span class="action requery">
+            Reconsultar
+                    </span>
+                            <span class="action edit">
+            Editar
+                    </span>
+                            <span class="action explain">
+            Explicar
+                    </span>
+                            <span class="action profiling">
+            Perfilando
+                    </span>
+                            <span class="action bookmark">
+            Agregar a favoritos
+                    </span>
+                            <span class="text failed">
+            Falló la consulta
+                    </span>
+                            <span class="text targetdb">
+            Base de datos
+                            : <span>catalagolibros</span>
+                    </span>
+                            <span class="text query_time">
+            Fecha y hora la consulta
+                            : <span>durante la sesión actual</span>
+                    </span>
+            </div>
+                            <span class="query">SELECT * FROM `libros`</span>
+                        </div>
+                                            <div class="message history collapsed hide select"
+                            targetdb="catalagolibros" targettable="libros">
+                            <div class="action_content">
+                    <span class="action collapse">
+            Colapsar
+                    </span>
+                            <span class="action expand">
+            Expandir
+                    </span>
+                            <span class="action requery">
+            Reconsultar
+                    </span>
+                            <span class="action edit">
+            Editar
+                    </span>
+                            <span class="action explain">
+            Explicar
+                    </span>
+                            <span class="action profiling">
+            Perfilando
+                    </span>
+                            <span class="action bookmark">
+            Agregar a favoritos
+                    </span>
+                            <span class="text failed">
+            Falló la consulta
+                    </span>
+                            <span class="text targetdb">
+            Base de datos
+                            : <span>catalagolibros</span>
+                    </span>
+                            <span class="text query_time">
+            Fecha y hora la consulta
+                            : <span>durante la sesión actual</span>
+                    </span>
+            </div>
+                            <span class="query">SELECT * FROM `libros`</span>
                         </div>
                                                 </div><!-- console_message_container -->
             <div class="query_input">
