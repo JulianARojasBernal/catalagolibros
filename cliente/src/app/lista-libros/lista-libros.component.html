@@ -1,0 +1,26 @@
+<!-- lista-libros.component.html -->
+<div class="container mt-3">
+    <h2>Listado de Libros</h2>
+  
+    <div *ngFor="let libro of libros">
+      <div class="card mb-3">
+        <div class="row g-0">
+          <div class="col-md-4">
+            <img [src]="libro.fotoPortada" alt="{{ libro.titulo }}" class="img-fluid">
+          </div>
+          <div class="col-md-8">
+            <div class="card-body">
+              <h5 class="card-title">{{ libro.titulo }}</h5>
+              <p class="card-text"><strong>Autor:</strong> {{ libro.autor }}</p>
+              <p class="card-text"><strong>Año de Publicación:</strong> {{ libro.ano_publicacion }}</p>
+              <p class="card-text"><strong>Categoría:</strong> {{ libro.categoria }}</p>
+              <p class="card-text"><strong>Sinopsis:</strong> {{ libro.sinopsis }}</p>
+              <a [routerLink]="['/libros/detalle', libro.id]" class="btn btn-primary">Ver Detalles</a>
+              <a [routerLink]="['/libros/editar', libro.id]" class="btn btn-secondary">Editar</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  

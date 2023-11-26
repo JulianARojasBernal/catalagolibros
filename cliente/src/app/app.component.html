@@ -1,0 +1,31 @@
+<!-- app.component.html -->
+<div class="container mt-3">
+  <h2>Listado de Libros</h2>
+
+  <table class="table">
+    <thead>
+      <tr>
+        <th>Foto</th>
+        <th>Título</th>
+        <th>Categoría</th>
+        <th>Acciones</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let libro of libros">
+        <td><img [src]="libro.fotoPortada" alt="{{ libro.titulo }}" class="img-thumbnail" style="max-width: 50px;"></td>
+        <td>{{ libro.titulo }}</td>
+        <td>{{ libro.categoria }}</td>
+        <td>
+          <button class="btn btn-primary" (click)="verLibro(libro.id)">Ver</button>
+          <button class="btn btn-warning" (click)="editarLibro(libro.id)">Editar</button>
+          <button class="btn btn-danger" (click)="eliminarLibro(libro.id)">Eliminar</button>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+
+  <button class="btn btn-success" (click)="agregarLibro()">Agregar Nuevo Libro</button>
+</div>
+
+<router-outlet></router-outlet>

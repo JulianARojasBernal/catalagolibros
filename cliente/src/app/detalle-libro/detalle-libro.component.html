@@ -1,0 +1,14 @@
+  <h2>Detalles del Libro</h2>
+  
+    <div class="card">
+      <div class="card-body">
+        <h5 class="card-title">{{ libro.titulo }}</h5>
+        <p class="card-text"><strong>Autor:</strong> {{ libro.autor }}</p>
+        <p class="card-text"><strong>Año de Publicación:</strong> {{ libro.anoPublicacion }}</p>
+        <p class="card-text"><strong>Sinopsis:</strong> {{ libro.sinopsis }}</p>
+        <p class="card-text"><strong>Categoría:</strong> {{ libro.categoria }}</p>
+        <p class="card-text"><strong>Foto de Portada:</strong></p>
+        <img [src]="libro.fotoPortada" alt="{{ libro.titulo }}" class="img-fluid">
+      </div>
+    </div>
+  
